@@ -5,7 +5,7 @@
   -moz-box-sizing: padding-box;
   box-sizing: padding-box;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .csstransforms .deck-container.deck-scale:not(.deck-menu) > .slide > .deck-slide-scaler {
   -webkit-transform-origin: 50% 0;

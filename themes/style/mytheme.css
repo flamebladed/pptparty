@@ -266,6 +266,7 @@ li > ol, li > ul {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Sedgwick Ave", cursive;
+    z-index: 99;
 }
 
 h1 {
@@ -298,13 +299,15 @@ margin-top: -3em;
 .siderb img{
 height:80%;
  max-width: 100%; 
-  z-index: -1;
+  z-index: 0;
+  position: relative;
 }
 
 .siderc{
   margin-left: 1em;
   margin-top: -2em;
   z-index: 99;
+    position: absolute
 
 }
 .sidercsml{
@@ -312,7 +315,7 @@ margin-left: 1em;
   margin-top: -2em;
   font-size: 0.6em;
   z-index: 99;
-
+ position: absolute;
 }
 
 
@@ -350,7 +353,7 @@ img.bg {
 
 
 .boxes{
-margin-top: 1em;
+margin-top: .5em;
   --gallery-cols: 1;
 	display: grid;
 	grid-template-columns: repeat(var(--gallery-cols), 1fr);
@@ -375,13 +378,14 @@ img {
 	grid-row: 1;
 	object-fit: cover;
 	max-width: 100%;
-   z-index: -1;
+   z-index: -5;
 }
 
 span{
   margin-left: 1em;
   margin-top: -2em;
-  z-index: 99;
+
+  position: absolute;
 }
 
 }
@@ -408,7 +412,7 @@ max-width: 45%;
   box-sizing:border-box;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px #e5c93d inset;
   display:flex;
-  z-index: 99;
+z-index: 99;
 }
 
 .papercard2{
@@ -416,7 +420,8 @@ max-width: 45%;
   padding: 0.3em;
   background-color:#ffed87;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px #e5c93d inset;
- z-index: 99;
+
+   position: relative;
 }
 
 
