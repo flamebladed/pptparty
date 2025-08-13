@@ -403,6 +403,7 @@ max-width: 45%;
   box-sizing:border-box;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px #e5c93d inset;
   display:flex;
+  z-index: 99;
 }
 
 .papercard2{
@@ -410,7 +411,7 @@ max-width: 45%;
   padding: 0.3em;
   background-color:#ffed87;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px #e5c93d inset;
-
+ z-index: 99;
 }
 
 
