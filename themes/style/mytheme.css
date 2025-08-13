@@ -298,17 +298,20 @@ margin-top: -3em;
 .siderb img{
 height:80%;
  max-width: 100%; 
+  z-index: -1;
 }
 
 .siderc{
   margin-left: 1em;
   margin-top: -2em;
+  z-index: 99;
 
 }
 .sidercsml{
 margin-left: 1em;
   margin-top: -2em;
   font-size: 0.6em;
+  z-index: 99;
 
 }
 
@@ -372,11 +375,13 @@ img {
 	grid-row: 1;
 	object-fit: cover;
 	max-width: 100%;
+   z-index: -1;
 }
 
 span{
   margin-left: 1em;
   margin-top: -2em;
+  z-index: 99;
 }
 
 }
